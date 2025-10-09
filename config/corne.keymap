@@ -95,10 +95,10 @@
 
         ARROW_MEDIA {
             bindings = <
-&trans  &trans          &trans      &trans       &trans       &trans    &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &trans  &trans
-&trans  &kp C_PREVIOUS  &kp C_NEXT  &kp C_PAUSE  &kp C_PAUSE  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans          &trans      &trans       &trans       &trans    &trans          &trans             &trans           &trans           &trans  &trans
-                                    &trans       &trans       &trans    &trans          &trans             &trans
+&trans  &trans          &trans      &trans      &trans      &trans    &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &trans  &trans
+&trans  &kp C_PREVIOUS  &kp C_NEXT  &kp C_PLAY  &kp C_STOP  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans          &trans      &trans      &trans      &trans    &trans          &trans             &trans           &trans           &trans  &trans
+                                    &trans      &trans      &trans    &trans          &trans             &trans
             >;
         };
     };
