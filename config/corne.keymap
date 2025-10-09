@@ -40,6 +40,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        ESC_COMBO {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
